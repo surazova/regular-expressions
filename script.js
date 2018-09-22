@@ -1,6 +1,6 @@
 //FreeCodeCamp Regular Expressions 
-//RegEx: Match all letters and numbers 
+//RegEx: Match everything but letters and numbers 
 
 let quoteSample = "The five boxing wizards jump quickly.";
-let alphabetRegexV2 = /\w/g; // Change this line
-let result = quoteSample.match(alphabetRegexV2).length;
+let nonAlphabetRegex = /\W/g; // Change this line
+let result = quoteSample.match(nonAlphabetRegex).length;
