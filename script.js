@@ -1,6 +1,5 @@
 //FreeCodeCamp Regular Expressions 
-//RegEx: Match all numbers
-
-let numString = "Your sandwich will be $5.00";
-let numRegex = /\d/g; // Change this line
-let result = numString.match(numRegex).length;
+//RegEx: Specify Upper and Lower Number of Matches
+let ohStr = "Ohhh no";
+let ohRegex = /Oh{3,6}\sno/i; // Change this line
+let result = ohRegex.test(ohStr);
