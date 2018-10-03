@@ -1,6 +1,6 @@
 //FreeCodeCamp Regular Expressions 
-//RegEx: Specify Exact Number of Matches
+//Regular Expressions: Reuse Patterns Using Capture Groups
 
-let timStr = "Timmmmber";
-let timRegex = /Tim{4}ber/; // Change this line
-let result = timRegex.test(timStr);
+let repeatNum = "42 42 42";
+let reRegex = /^(\d+)\s\1\s\1$/; // Change this line
+let result = reRegex.test(repeatNum);
